@@ -13,6 +13,7 @@ buildscript {
         mavenCentral()
         google()
         jcenter()
+        gradlePluginPortal()
     }
 
     dependencies {
@@ -23,6 +24,7 @@ buildscript {
 
 plugins {
     id("net.ltgt.errorprone") version "0.7.1"
+    id("com.github.plnice.canidropjetifier") version "0.5"
 }
 
 allprojects {
